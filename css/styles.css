@@ -1,0 +1,154 @@
+/* ================================
+   Estilos Generales
+================================ */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #a94f4f;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 0 0 15px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #D32F2F;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #B71C1C;
+}
+
+/* ================================
+   Hero Section
+================================ */
+.hero {
+  background: url('https://commons.wikimedia.org/wiki/File:Pique_Macho_Bolivia.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #FFF3E0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* ================================
+   Sección Acerca
+================================ */
+#acerca {
+  background: #FFF3E0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#acerca h2 {
+  color: #D32F2F;
+}
+
+/* ================================
+   Programa de Eventos
+================================ */
+#programa {
+  background: #FFECB3;
+  padding: 60px 20px;
+}
+
+#programa ul {
+  list-style: none;
+  padding: 0;
+}
+
+#programa li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid #388E3C;
+  border-radius: 5px;
+}
+
+/* ================================
+   Testimonios
+================================ */
+#testimonios {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonio {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* ================================
+   Registro
+================================ */
+#registro {
+  background: #FBC02D;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#registro form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+#registro input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ================================
+   Footer
+================================ */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #FBC02D;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   Responsividad
+================================ */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+}
